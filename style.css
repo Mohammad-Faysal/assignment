@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,500;0,600;1,400;1,500&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+:root {
+    --color-main: rgba(232, 220, 220, 0.9);
+    --color-bg: rgb(7, 0, 0);
+    --color-bg-1: rgba(233, 189, 189, 0.982);
+    --color-primary: rgb(173, 11, 60); 
+    --color-primary-1: rgba(182, 18, 67, 0.742); 
+    --color-white: rgb(255, 255, 255);
+    --color-hover: rgb(179, 8, 8);
+    
+    --container-width-lg: 88%;
+    --container-width-md: 92%;
+    --transition: all 0.3s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: o;
+    list-style: none;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Poppins" sans-serif;
+    background-color: var(--color-main);
+    color: var(--color-white);
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+h1, h2 {
+    line-height: 1.2;
+    font-weight: 500;
+}
+h1 {
+    font-size: 4rem;
+    color: var(--color-white);
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+a {
+    color: var(--color-primary-1);
+    transition: var(--transition);
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: var(--color-hover);
+}
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 2160px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
