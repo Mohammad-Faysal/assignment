@@ -207,3 +207,80 @@ nav {
     background-color: var(--color-primary);
     color: var(--color-white);
 }
+
+ section {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+}
+
+.shadow-1 {
+    display: grid;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 53rem;
+
+}
+
+.up {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 12rem;
+    background-color: var(--color-primary);
+    padding-bottom: 0.5rem;
+    border-radius: 15px;
+    margin-left: 40px;
+    
+}
+
+.up p {
+    box-sizing: border-box;
+    width: 80%;
+    height: 12rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+
+
+    
+}
+.down {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    letter-spacing: 0.1rem;
+    position: relative;
+    text-align: center;
+    
+
+}
+
+.down h2 {
+    color: var(--color-bg);
+    margin-left: 10rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+  .down ul {
+    display: inline-table;
+    
+    font-size: 1.5rem;
+    width: 100%;
+    height: 16rem;
+    color: rgb(170, 178, 185);
+    margin: 150px;
+    margin-top: 4rem;
+    padding: auto;
+    
+}
+
+.down  li {
+    display: inline;
+}
