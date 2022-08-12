@@ -250,24 +250,3 @@ nav {
     font-size: 4rem;
 }
 
-.shadow-1 {
-    width: 100%;
-    height: 100%;
-}
-
-.Down {
-    width: auto;
-    height: auto;
-    display: grid;
-    overflow: hidden;   
-}
-
-.Down ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.Down ul li {
-    color: rgb(67, 70, 72);
-}
