@@ -16,7 +16,7 @@
 
 * {
     margin: 0;
-    padding: o;
+    padding: 0;
     list-style: none;
     box-sizing: border-box;
     outline: 0;
@@ -60,7 +60,6 @@ a:hover {
 
 .container {
     width: var(--container-width-lg);
-    margin: 0 auto;
     max-width: 2160px;
 }
 
@@ -209,17 +208,15 @@ nav {
 }
 
  section {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: absolute;
     overflow: hidden;
 }
 
-.shadow-1 {
-    display: grid;
+.shadow {
     width: 100%;
-    height: 50%;
-    position: relative;
+    height: 100%;
     top: 53rem;
 
 }
@@ -231,56 +228,46 @@ nav {
     width: 100%;
     height: 12rem;
     background-color: var(--color-primary);
-    padding-bottom: 0.5rem;
-    border-radius: 15px;
-    margin-left: 40px;
+    border-radius: 25px;
+    margin: 15px 15px 15px 15px;
     
 }
 
 .up p {
     box-sizing: border-box;
-    width: 80%;
     height: 12rem;
     font-size: 3.5rem;
     font-weight: 400;
     justify-content: space-around;
     align-items: center;
-    display: grid;
-
-
-    
+    display: flex;   
 }
-.down {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    letter-spacing: 0.1rem;
-    position: relative;
-    text-align: center;
-    
-
-}
-
-.down h2 {
+.shadow h2 {
     color: var(--color-bg);
-    margin-left: 10rem;
-    margin-top: 1rem;
-    font-weight: 700;
-}
-
-  .down ul {
-    display: inline-table;
-    
-    font-size: 1.5rem;
-    width: 100%;
-    height: 16rem;
-    color: rgb(170, 178, 185);
-    margin: 150px;
+    font-weight: 500;
+    margin-left: 2rem;
     margin-top: 4rem;
-    padding: auto;
-    
+    font-size: 4rem;
 }
 
-.down  li {
-    display: inline;
+.shadow-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.Down {
+    width: auto;
+    height: auto;
+    display: grid;
+    overflow: hidden;   
+}
+
+.Down ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Down ul li {
+    color: rgb(67, 70, 72);
 }
